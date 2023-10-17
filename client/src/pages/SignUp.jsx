@@ -48,11 +48,13 @@ function SignUp() {
           id="username"
           placeholder="Username"
           className="border p-3 rounded-lg"
+          required
           onChange={handleChange}
         />
         <input
           type="text"
           id="email"
+          required
           placeholder="E-mail"
           className="border p-3 rounded-lg"
           onChange={handleChange}
@@ -60,6 +62,7 @@ function SignUp() {
         <input
           type="password"
           id="password"
+          required
           placeholder="Password"
           className="border p-3 rounded-lg"
           onChange={handleChange}
